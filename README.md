@@ -1,7 +1,7 @@
 
-<bold> <h1> Desafio Java da empresa EVEO <bold> <h1>
+<bold> <h1> Desafio Java da empresa (EVEO) <bold> <h1>
 
-# 📌 Desafio Desenvolvedor Java - EVEO
+# 📌 Desafio Desenvolvedor Java - (EVEO)
 
 Este projeto é uma API REST desenvolvida em **Java 17** com **Spring Boot**, que simula um **Painel Unificado de Cliente**.  
 O objetivo é centralizar informações de **contratos**, **assinaturas de produtos** e **faturas** de um cliente específico, usando dados **mockados** em memória.
@@ -33,3 +33,4 @@ src/
 └── resources
 
 └── application.properties
+
