@@ -30,7 +30,6 @@ src/
 
 │ ├── Service # Serviços e regras de negócio
 
-└── resources
 
-└── application.properties
+
 
