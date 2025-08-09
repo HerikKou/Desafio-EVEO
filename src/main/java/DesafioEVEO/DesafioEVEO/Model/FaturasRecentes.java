@@ -1,12 +1,12 @@
 package DesafioEVEO.DesafioEVEO.Model;
 
 
-public class Fatura {
+public class FaturasRecentes {
     private String referencia;
     private double valor;
     private boolean pago;
    
-    public Fatura(String referencia, double valor, boolean pago) {
+    public FaturasRecentes(String referencia, double valor, boolean pago) {
         this.referencia = referencia;
         this.valor = valor;
         this.pago = pago;

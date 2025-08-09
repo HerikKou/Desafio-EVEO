@@ -3,15 +3,15 @@ package DesafioEVEO.DesafioEVEO.Model;
 import java.util.List;
 
 public class Clientes {
-    private String id;
+    private String clienteId;
     private String nome;
     private List<Contrato> contratos;
     private List<Assinatura> assinaturas;
-    private List<Fatura> faturas;
+    private List<FaturasRecentes> faturas;
 
-    public Clientes(String id, String nome, List<Contrato> contratos, List<Assinatura> assinaturas,
-            List<Fatura> faturas) {
-        this.id = id;
+    public Clientes(String clienteId, String nome, List<Contrato> contratos, List<Assinatura> assinaturas,
+            List<FaturasRecentes> faturas) {
+        this.clienteId= clienteId;
         this.nome = nome;
         this.contratos = contratos;
         this.assinaturas = assinaturas;
@@ -19,11 +19,11 @@ public class Clientes {
     }
 
     public String getId() {
-        return id;
+        return clienteId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String clienteId) {
+        this.clienteId = clienteId;
     }
 
     public String getNome() {
@@ -50,11 +50,11 @@ public class Clientes {
         this.assinaturas = assinaturas;
     }
 
-    public List<Fatura> getFaturas() {
+    public List<FaturasRecentes> getFaturas() {
         return faturas;
     }
 
-    public void setFaturas(List<Fatura> faturas) {
+    public void setFaturas(List<FaturasRecentes> faturas) {
         this.faturas = faturas;
     }
 

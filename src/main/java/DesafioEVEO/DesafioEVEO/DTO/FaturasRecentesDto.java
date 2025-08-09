@@ -4,12 +4,12 @@ import java.util.List;
 
 import DesafioEVEO.DesafioEVEO.Model.Clientes;
 
-public class FaturaDto {//MODEL- é usado para armazenar dados que precisam ser exibidos na Exibição 
+public class FaturasRecentesDto {//MODEL- é usado para armazenar dados que precisam ser exibidos na Exibição 
        private String referencia;
     private double valor;
     private boolean pago;
         private List<Clientes> clientes;
-        public FaturaDto(String referencia, double valor, boolean pago, List<Clientes> clientes) {
+        public FaturasRecentesDto(String referencia, double valor, boolean pago, List<Clientes> clientes) {
             this.referencia = referencia;
             this.valor = valor;
             this.pago = pago;

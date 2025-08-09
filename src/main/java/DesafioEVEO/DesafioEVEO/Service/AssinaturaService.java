@@ -6,8 +6,9 @@ import DesafioEVEO.DesafioEVEO.Model.Assinatura;
 
 @Service
 public class AssinaturaService {
-
+   
     public List<Assinatura> AssinaturasDeCadaCliente(String clienteId) {
+        
         // Simulação de dados mockados
         return List.of(
             new Assinatura("Firewall Gerenciado", "Ativo"),

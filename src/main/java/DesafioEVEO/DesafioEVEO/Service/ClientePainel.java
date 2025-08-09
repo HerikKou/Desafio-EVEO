@@ -11,7 +11,7 @@ public class ClientePainel {
     @Autowired
     private ContratoService contratoService;
     @Autowired
-    private FaturaService faturaService;
+    private FaturasRecentesService faturaService;
     @Autowired
     private AssinaturaService assinaturaService;
     @Autowired

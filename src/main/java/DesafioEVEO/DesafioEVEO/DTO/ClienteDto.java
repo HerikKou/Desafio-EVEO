@@ -4,20 +4,21 @@ import java.util.List;
 
 import DesafioEVEO.DesafioEVEO.Model.Assinatura;
 import DesafioEVEO.DesafioEVEO.Model.Contrato;
-import DesafioEVEO.DesafioEVEO.Model.Fatura;
+import DesafioEVEO.DesafioEVEO.Model.FaturasRecentes;
 
-public class ClienteDto {//DTO- transferência de dados entre camadas
-        private String id;
+
+
+public class ClienteDto {//- transferência de dados entre camadas
+        private String clienteId;
     private String nome;
     private List<Contrato> contratos;
-private List<Assinatura> assinaturas;
-    private List<Fatura> faturas;
-   
+  private List<Assinatura> assinaturas;
+    private List<FaturasRecentes> faturas;
     public String getId() {
-        return id;
+        return clienteId;
     }
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String clienteId) {
+        this.clienteId = clienteId;
     }
     public String getNome() {
         return nome;
@@ -37,12 +38,14 @@ private List<Assinatura> assinaturas;
     public void setAssinaturas(List<Assinatura> assinaturas) {
         this.assinaturas = assinaturas;
     }
-    public List<Fatura> getFaturas() {
+    public List<FaturasRecentes> getFaturas() {
         return faturas;
     }
-    public void setFaturas(List<Fatura> faturas) {
+    public void setFaturas(List<FaturasRecentes> faturas) {
         this.faturas = faturas;
     }
+   
+
    
   
  
